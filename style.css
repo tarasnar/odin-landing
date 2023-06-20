@@ -56,7 +56,7 @@ header a {
 }
 
 #hero-text button {
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     background-color: #3882F6;
     border: none;
@@ -120,7 +120,70 @@ header a {
     width: 15vh;
     background-color: white;
     border: solid 5px #3882F6;
-    border-radius: 10px;
+    border-radius: 15px;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    height: auto;
+    width: 100vw;
+    padding: 25px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+
+#quote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+#quote h1 {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: right;
+}
+
+#call {
+    height: auto;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+#call p {
+    font-size: 24px;
+    color: white;
+    text-align: left;
+}
+
+#housing {
+    height: auto;
+    width: 60vw;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#housing button {
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border: solid 1px white;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
 }
 
 footer {
