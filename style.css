@@ -9,7 +9,7 @@ header {
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-flow: row nowrap;
     background-color: #1F2937;
 }
@@ -17,13 +17,17 @@ header {
 header h1 {
     font-size: 24px;
     color: #F9FAF8;
-    padding: 10px 0 10px 0;
+    padding: 10px;
+}
+
+header ul {
+    overflow: hidden;
 }
 
 header a {
     font-size: 18px;
     color: #E5E7EB;
-    padding: 10px 0 10px 0;
+    padding: 10px;
 }
 
 #hero {
@@ -96,7 +100,7 @@ header a {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 #block p {
@@ -127,14 +131,13 @@ header a {
     background-color: #E5E7EB;
     height: auto;
     width: 100vw;
-    padding: 25px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     padding: 50px 0 50px 0;
 }
 
-#quote p {
+#quote h1 {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -142,10 +145,12 @@ header a {
     text-align: left;
 }
 
-#quote h1 {
+#quote p {
     font-size: 18px;
+    font-weight: bolder;
     color: #1F2937;
     text-align: right;
+    margin: 0 50px 0 0;
 }
 
 #call {
@@ -167,14 +172,32 @@ header a {
 
 #housing {
     height: auto;
-    width: 60vw;
+    width: 50vw;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-evenly;
     background-color: #3882F6;
     border-radius: 5px;
-    padding: 10px;
+    padding: 25px;
+}
+
+#housing div {
+    height: auto;
+    width: auto;
+}
+
+#span-header {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+#span-text {
+    display: block;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 #housing button {
