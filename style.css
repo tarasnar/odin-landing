@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -55,7 +56,7 @@ header a {
 }
 
 #hero-text button {
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     background-color: #3882F6;
     border: none;
@@ -69,6 +70,57 @@ header a {
     width: 40vh;
     background-color: rgb(255, 255, 255, 0.2);
     color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#info {
+    height: auto;
+    width: 100vw;
+    background-color: white;
+}
+
+#info p {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 25px;
+}
+
+#block {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#block p {
+    font-size: 18px;
+    font-weight: normal;
+    color: #1F2937;
+}
+
+.square {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0 50px 0;
+}
+
+.square div {
+    height: 15vh;
+    width: 15vh;
+    background-color: white;
+    border: solid 5px #3882F6;
+    border-radius: 10px;
 }
 
 footer {
